@@ -1,0 +1,229 @@
+/* スマホCSS */
+@media screen and (max-width:767px) {
+
+#wrapper{
+	width: 100%;
+	padding-left: 0px;
+	min-height: 100%;
+	font-size:100%;
+  	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/**side_navi**/
+#side_navir{
+	height:100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 1000;
+	width:auto;
+	font-size: 16px;
+	background-color: white;
+}
+
+h1.logo{
+	width:90%;
+	margin:0 auto;
+}
+
+.logo img{
+	width:85%;
+}
+
+#side_navir h2 img{
+	width:88%;
+	padding:3%;
+}
+
+#navigation ul{
+	width:90%;
+	margin:2% auto 5%;
+}
+
+#navigation li{
+	font-weight:bold;
+	color:#363636;
+	font-size:100%;
+	padding:0.4rem 0;
+}
+
+#navigation li a:hover{
+	color:#AF282A;
+}
+
+.blue{
+	color:#15A0D3;
+}
+
+#smartphoneTop{
+	padding-top:100px;
+	width:70%;
+	margin:0 auto;
+}
+
+#slide_images{
+	display:none;
+}
+
+.sp_main_image{
+	margin-top:20%;
+}
+
+.sp_main_image img{
+	width:100%;
+}
+
+/**spritehoverEnd**/
+
+.snsicon{
+	display:none;
+}
+
+#sidebar{
+	display:none;
+}
+
+/**headerEnd**/
+
+/**contents**/
+#main{
+
+}
+
+/** パンくず **/
+.breadcrumb{
+	margin-bottom:10%;
+}
+
+.breadcrumb ul{
+	text-align:left;
+	padding:1em 0 1em 0.5em;
+}
+
+.breadcrumb li{
+	display:inline;
+}
+
+/** 冒頭部 **/
+
+#beginning_part{
+	position: relative;
+}
+
+#beginning_part img{
+	width:100%;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 1.7em;
+    color: #000;
+    width: 100%;
+    max-width: 65%;
+    padding: 1em 0;
+}
+
+.absolute1 h1 {
+	font-weight: bold;
+	margin: 0;
+    padding-bottom: 0.4em;
+    font-size: 150%;
+    text-align: center;
+    font-family: Yu Mincho,'游明朝',serif;
+}
+
+
+
+.beginning_part_inner h1{
+	font-size:150%;
+	padding:0.5em 0;
+}
+
+.beginning_part_inner h2{
+	font-size:120%;
+}
+
+.beginning_part_inner p{
+	font-weight:500;
+	text-align:left !important;
+	line-height:1.2;
+}
+
+.img-box {
+	width:100%;
+	color: #444;
+	display: inline-block;
+}
+
+.img-box img {
+	float: left;
+	padding-right: 15px;
+	max-width: 100%;
+}
+
+.img-box p {
+	text-align: left;
+}
+
+.topic {
+	width: 90%;
+	margin: 3em auto 2em auto;
+	clear: both;
+}
+
+
+
+.topic h2  {
+	font-size: 140%;
+	font-family: Yu Mincho,'游明朝',serif;
+	color: #aa0000;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+}
+
+.topic h3 {
+	font-size: 120%;
+	font-family: Yu Mincho,'游明朝',serif;
+	color: #000;
+	letter-spacing: 0.3em;
+	line-height: 1.5em;
+	border-bottom: 2px dotted #aaa;
+}
+
+.topic p {
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+}
+
+.list{
+	margin: 0 auto 0 auto;
+	list-style-type: none;
+	overflow: hidden;
+  text-align: center;
+}
+.list li{
+	margin: 15px 3px 0 3px;
+	display: inline-block;
+	transition: .8s;
+}
+
+.list li img {
+	max-width: 90%;
+}
+
+.list-mv07{
+	opacity: 0;
+	transform: translate(0,60px);
+	-webkit-transform: translate(0,60px);
+}
+.mv07{
+	opacity: 1.0;
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+}

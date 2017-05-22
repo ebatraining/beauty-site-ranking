@@ -1,0 +1,335 @@
+body{
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+/** clearfix **/
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix { display: inline-table; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/** footer **/
+
+footer{
+	text-align:center;
+	background:#393939;
+	color:#FFFFFF;
+	padding:5% 0;
+}
+
+/*TOPに戻る*/
+#page-top {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	font-size: 77%;
+	border:solid;
+	color:#8A8A8A;
+}
+
+#page-top a {
+	text-decoration: none;
+	color:#8A8A8A;
+	width: 100px;
+	padding: 10px 0;
+	text-align: center;
+	display: block;
+	background:rgba(255,255,255,.8);
+}
+
+#page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}
+
+
+/* PC&タブレット端末向けCSS */
+@media screen and (min-width:768px) {
+
+#wrapper{
+	width: auto;
+	padding-left: 300px;
+	min-height: 100%;
+	font-size:100%;
+  	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/** side_navi **/
+#side_navi{
+	height:100%;
+	position:fixed;
+	left:2px;
+	top:10px;
+	z-index:1000;
+	width:auto;
+	font-size:16px;
+	background-color:white;
+}
+
+h1.logo{
+	width:90%;
+	margin:0 auto;
+}
+
+.logo img{
+	width:85%;
+}
+
+#side_navi h2 img{
+	width:88%;
+	padding:3%;
+}
+
+#navigation ul{
+	width:90%;
+	margin:2% auto 5%;
+}
+
+#navigation li{
+	font-weight:bold;
+	color:#363636;
+	font-size:100%;
+	padding:0.4rem 0;
+}
+
+#navigation li a:hover{
+	color:#AF282A;
+}
+
+.blue{
+	color:#15A0D3;
+}
+
+
+/**spritehoverEnd**/
+
+.drawer-toggle,#smartphone{
+	display: none;
+}
+
+.snsicon{
+	width: auto;
+	margin: 0 auto;
+	padding-top:2%;
+	text-align: center;
+}
+.snsicon a{
+	margin-right:3px;
+}
+
+#slide_images{
+	width:100%;
+	position:relative;
+	height:80vh;
+}
+
+#slide_images .top_logo{
+	position:absolute;
+	top:10%;
+	right:10%;
+}
+
+#smartphoneTop{
+	display:none;
+}
+
+.sp_main_image{
+	display:none;
+}
+
+/**headerEnd**/
+
+/**contents**/
+#main{
+
+}
+
+/** パンくず **/
+
+.breadcrumb{
+	margin-bottom:5%;
+}
+
+.breadcrumb ul{
+	text-align:left;
+	padding:1em 0;
+}
+
+.breadcrumb li{
+	display:inline;
+}
+
+/** 冒頭部 **/
+
+#beginning_part{
+	position: relative;
+	text-align: center;
+}
+
+#beginning_part img {
+	width:100%;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 1.7em;
+    color: #000;
+    width: 100%;
+    max-width: 75%;
+    padding: 1em 0;
+}
+
+.absolute1 h1 {
+	font-weight: bold;
+	margin: 0;
+    padding-bottom: 0.6em;
+    font-size: 230%;
+    text-align: center;
+    font-family: Yu Mincho,'游明朝',serif;
+}
+
+
+.beginning_part_inner{
+	text-align:left;
+	color:#222;
+	width:75%;
+	margin:0 auto;
+	padding-top:9%;
+}
+
+.beginning_part_inner h1{
+	font-size:150%;
+	padding:0.5em 0;
+	color:#000;
+}
+
+.beginning_part_inner h2{
+	font-size:120%;
+}
+
+.beginning_part_inner p{
+	font-weight:500;
+}
+
+.img-box {
+	width:80%;
+	color: #444;
+	display: inline-block;
+}
+
+.img-box img {
+	float: left;
+  width: 250px;
+
+}
+
+
+
+.img-box p {
+	text-align: left;
+  display: block;
+}
+
+
+.d-Zoom
+{
+	border:6px solid #fff;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+	transition:all 1s;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+.d-Zoom:hover
+{
+	transform:scale(1.3);
+	box-shadow:0px 0px 13px #777;
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.boxContainer {
+    zoom: 1;
+}
+
+.topic {
+	max-width: 90%;
+	margin: 3em auto 5em auto;
+	clear: both;
+  text-align: center;
+}
+
+
+.topic h2  {
+	font-size: 140%;
+	font-family: Yu Mincho,'游明朝',serif;
+	color: #aa0000;
+	letter-spacing: 0.3em;
+	line-height: 2em;
+  text-align: left;
+}
+
+.topic h3 {
+	font-size: 120%;
+	font-family: Yu Mincho,'游明朝',serif;
+	color: #000;
+	letter-spacing: 0.3em;
+	line-height: 1.5em;
+	border-bottom: 2px dotted #aaa;
+  text-align: left;
+}
+
+.topic p {
+	line-height: 1.7em;
+	letter-spacing: 0.1em;
+  display: block;
+  text-align: left;
+}
+
+
+.list{
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+  text-align: center;
+}
+.list li{
+	margin: 20px 7px 40px 8px;
+	display: inline-block;
+	transition: .8s;
+}
+
+.list li img {
+	max-width: 100%;
+}
+
+.list-mv07{
+	opacity: 0;
+	transform: translate(0,60px);
+	-webkit-transform: translate(0,60px);
+  max-width: 90%;
+}
+.mv07{
+	opacity: 1.0;
+	transform: translate(0,0);
+	-webkit-transform: translate(0,0);
+}

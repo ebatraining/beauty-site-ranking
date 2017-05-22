@@ -1,0 +1,179 @@
+@media screen and (min-width:768px) {
+
+
+/* class */
+.recommend {
+	margin:50px 0;
+}
+.photo   {
+	float: left;
+	height: 300px;
+	width: 450px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.text {
+	padding-right:1%;
+}
+.desc {
+	clear: left;
+	text-align: right;
+	background-color: #FFF;
+	padding-right: 10px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+}
+/* tag */
+h1 {
+	background-image: url(images/title.jpg);
+	height: 200px;
+	width: 750px;
+	margin: 0px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+
+.title_i {
+	color:#4E4E4E;
+	border-bottom:1px solid #878787;
+	font-weight:bold;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-stretch:inherit;
+	text-align:center;
+	font-size:23px;
+	padding-bottom:10px;
+}
+
+	
+table {
+	border-collapse:separate;
+	border-spacing:30px;
+	table-layout:fixed;
+	width:100%;
+}
+
+.td_images{
+	text-align: center;	
+}
+td p{
+	vertical-align:top;
+	height:220px;
+	margin:10px auto;
+}
+.span1 {
+	font-size: large;
+	font-weight: bolder;
+	color: #306B56;
+	font-family: "ＭＳ 明朝";
+	text-align: center;
+	display: block;
+}
+
+nav {
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	overflow: hidden;
+}
+
+section {
+	margin:0 auto 30px;
+	border-right-width: 2px;
+	border-left-width: 2px;
+	border-right-color: #FFF;
+	border-left-color: #FFF;
+}
+
+h2 {
+	color: #0CA397;
+	font-size:35px;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	margin: 0px;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-bottom:1px solid #0CA397;
+}
+h3 {
+	color: #736778;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+/* p */
+p {
+	color: #333;
+	margin: 0px;
+}
+
+nav a {
+	color: #F90;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+nav a:hover {
+	color: #FFF;
+	background-color: #F90;
+}
+
+
+/* end */
+}
+
+/* 画面サイズが480px以下の場合に適用 */
+@media only screen and (max-width: 767px) {
+
+h2 {
+	color: #0CA397;
+	font-size:130%;
+	font-weight:bold;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	margin:10% 0px 5%;
+	padding-top: 2%;
+	padding-right: 0px;
+	padding-bottom: 2%;
+	padding-left: 10px;
+	border-bottom:1px solid #0CA397;
+}
+
+h3 {
+	color: #736778;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5%;
+	margin-left: 0px;
+}
+
+.span1 {
+	font-size:100%;
+	font-weight: bolder;
+	color: #306B56;
+	font-family: "ＭＳ 明朝";
+	text-align: center;
+	display: block;
+}
+
+.title_i {
+	color:#4E4E4E;
+	border-bottom:1px solid #878787;
+	font-weight:bold;
+	font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-stretch:inherit;
+	text-align:center;
+	font-size:100%;
+	margin:10% 0 5%; 
+}
+
+}

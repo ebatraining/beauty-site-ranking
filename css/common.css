@@ -1,0 +1,319 @@
+charset "utf-8";
+body {
+	width: 950px;
+	background-image: url(../images/bg.gif);
+}
+#wrapper {
+	background-color: #FFF0F5;
+	width: 950px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+}
+#navi {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.pankuzu {
+	color: #666;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+}
+.page0:hover {
+	background-image: url(../images/nav_btn01_on.png);
+}
+.page1:hover {
+	background-image: url(../images/nav_btn02_on.png);
+}
+.page2:hover {
+	background-image: url(../images/nav_btn03_on.png);
+}
+.page3:hover {
+	background-image: url(../images/nav_btn04_on.png);
+}
+.page4:hover {
+	background-image: url(../images/nav_btn05_on.png);
+}
+
+
+
+
+
+
+/* CSS Document */
+
+li{
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.page0 {
+	display: inline-block;
+	height: 30px;
+	width: 176px;
+	background-image: url(../images/nav_btn01.png);
+	*display:inline;
+	*zoom:1;
+}
+.page1 {
+	display: inline-block;
+	height: 30px;
+	width: 176px;
+	background-image: url(../images/nav_btn02.png);
+	*display:inline;
+	*zoom:1;
+}
+.page2 {
+	display: inline-block;
+	height: 30px;
+	width: 176px;
+	background-image: url(../images/nav_btn03.png);
+	*display:inline;
+	*zoom:1;
+}
+
+.page3 {
+	display: inline-block;
+	background-image: url(../images/nav_btn04.png);
+	height: 30px;
+	width: 176px;
+	*display:inline;
+	*zoom:1;
+}
+
+
+.page4 {
+	display: inline-block;
+	height: 30px;
+	width: 176px;
+	background-image: url(../images/nav_btn05.png);
+	*display:inline;
+	*zoom:1;
+}
+#main {
+	margin-right: auto;
+	margin-left: auto;
+	width: 950px;
+	text-align: center;
+}
+
+#rank_area1 {
+	background-image: url(../images/number01.jpg);
+	height: 228px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+#rank_area2 {
+	background-image: url(../images/top02_29.jpg);
+	height: 228px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#rank_area3 {
+	background-image: url(../images/top02_29-35.jpg);
+	height: 228px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#rank_area4 {
+	background-image: url(../images/number04.jpg);
+	height: 228px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.rank_btn{
+	width: 304px;
+	height: 47px;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: 25px;
+}
+/*.rank_btn:hover {
+	background-image: url(../images/btn01_on.png);
+}*/
+
+.text_rank {
+	margin-left: 500px;
+	margin-bottom: 10px;
+	padding-top: 60px;
+	text-align: left;
+
+}
+h1 {
+	font-size: xx-large;
+	color: #F06;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: x-large;
+	font-weight: bolder;
+	color: #600;
+	font-family: "ＭＳ Ｐゴシック";
+	float: left;
+}
+.value  {
+	background-color: #ffe4e1;
+	height: 240px;
+	width: 400px;
+	margin-left: 490px;
+	padding-top: 80px;
+	text-align: center;
+	clear: both;
+}
+.table2 {
+	background-color: #FFF0F5;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+}
+.table3 {
+	background-color: #cd853f;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+
+footer {
+	clear: both;
+	text-decoration: none;
+	text-align: center;
+	background-color: #996666;
+	color: #FFF;
+	text-decoration: none;
+	height: 100px;
+}
+footer ul li a{
+	color: #FFF;
+}
+footer ul li{
+	display: inline;
+}
+footer ul{
+	padding-top: 10px;
+	margin: 20px;
+}
+footer p{
+	margin: 20px;
+	
+}
+
+
+/*.list0 {
+	float: left;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+.list1 {
+	float: left;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.list2 {
+	color: #FFF;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.list3 {
+	float: left;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.list4  {
+	text-decoration: none;
+	float: left;
+	color: #FFF;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	display: inline;
+}*/
+
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+.copy {
+	color: #FFF;
+}
+
+
+
+
+
+.span1 {
+	font-size: large;
+	font-weight: bolder;
+	color: #F09;
+	font-family: "ＭＳ 明朝";
+	text-align: center;
+	display: block;
+}
+#main .t19 .t14  {
+	padding-bottom: 20px;
+
+}
+.span2 {
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: x-large;
+	font-weight: bolder;
+	color: #600;
+}
+
+
+
+.yellow {
+	color: #F60;
+	font-weight: bolder;
+	font-size: large;
+}
+.top_btn {
+	text-align: right;
+	margin: 10px;
+}

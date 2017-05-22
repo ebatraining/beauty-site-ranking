@@ -1,0 +1,344 @@
+body{
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+/** clearfix **/
+
+.clearfix:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+}
+
+.clearfix { display: inline-table; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/** footer **/
+
+footer{
+	text-align:center;
+	background:#393939;
+	color:#FFFFFF;
+	padding:5% 0;
+}
+
+/*TOPに戻る*/
+#page-top {
+	position: fixed;
+	bottom: 10px;
+	right: 20px;
+	font-size: 77%;
+	border:solid;
+	color:#8A8A8A;
+}
+
+#page-top a {
+	text-decoration: none;
+	color:#8A8A8A;
+	width: 100px;
+	padding: 10px 0;
+	text-align: center;
+	display: block;
+	background:rgba(255,255,255,.8);
+}
+
+#page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}
+
+/* PC&タブレット端末向けCSS */
+@media screen and (min-width:768px) {
+
+#wrapper{
+	width: auto;
+	padding-left: 300px;
+	min-height: 100%;
+	font-size:100%;
+  	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/** side_navi **/
+#side_navi{
+	height:100%;
+	position:fixed;
+	left:2px;
+	top:10px;
+	z-index:1000;
+	width:auto;
+	font-size:16px;
+	background-color:white;
+}
+
+h1.logo{
+	width:90%;
+	margin:0 auto;
+}
+
+.logo img{
+	width:85%;
+}
+
+#side_navi h2 img{
+	width:88%;
+	padding:3%;
+}
+
+#navigation ul{
+	width:90%;
+	margin:2% auto 5%;
+}
+
+#navigation li{
+	font-weight:bold;
+	color:#363636;
+	font-size:100%;
+	padding:0.4rem 0;
+}
+
+#navigation li a:hover{
+	color:#AF282A;
+}
+
+.blue{
+	color:#15A0D3;
+}
+
+
+/**spritehoverEnd**/
+
+.drawer-toggle,#smartphone{
+	display: none;
+}
+
+.snsicon{
+	width: auto;
+	margin: 0 auto;
+	padding-top:2%;
+	text-align: center;
+}
+.snsicon a{
+	margin-right:3px;
+}
+
+#slide_images{
+	width:100%;
+	position:relative;
+	height:80vh;
+}
+
+#slide_images .top_logo{
+	position:absolute;
+	top:10%;
+	left:10%;
+}
+
+#smartphoneTop{
+	display:none;
+}
+
+.sp_main_image{
+	display:none;
+}
+
+/**headerEnd**/
+
+/**contents**/
+#main{
+	
+}
+
+/** パンくず **/
+
+.breadcrumb{
+	margin-bottom:5%;
+}
+
+.breadcrumb ul{
+	text-align:left;
+	padding:1em 0;
+}
+
+.breadcrumb li{
+	display:inline;
+}
+
+/** 冒頭部 **/
+
+#beginning_part{
+	background:url(../images/title_bg.jpg) center center no-repeat;
+	background-size:cover;
+	height:345px;
+	width:100%;
+}
+
+.beginning_part_inner{
+	text-align:center;
+	color:#FFFFFF;
+	width:60%;
+	margin:0 auto;
+	padding-top:10%;
+}
+
+.beginning_part_inner h1{
+	font-size:150%;
+	padding:0.5em 0;
+}
+
+.beginning_part_inner h2{
+	font-size:120%;
+}
+
+.beginning_part_inner p{
+	font-weight:500;
+}
+
+/** No.1 **/
+
+#number01{
+	margin:10% 0;
+}
+
+#number01 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number01 h2 img{
+	width:22%;
+	padding:5% 0 2%;
+}
+
+#number01 .number01_txt{
+	float:left;
+	padding-left:4%;
+	width:43%;
+	font-size:85%;
+	font-weight:500;
+}
+
+#number01 .number01_img{
+	float:right;
+	text-align:center;
+	width:48%;
+}
+
+#number01 .number01_img img{
+	width:100%;
+}
+
+/** No.2 **/
+
+#number02{
+	margin:10% 0;
+}
+
+#number02 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number02 h2 img{
+	width:22%;
+	padding:5% 0 2%;
+}
+
+#number02 .number02_txt{
+	float:right;
+	padding-right:4%;
+	width:43%;
+	font-size:85%;
+	font-weight:500;
+}
+
+#number02 .number02_img{
+	float:left;
+	text-align:center;
+	width:48%;
+}
+
+#number02 .number02_img img{
+	width:100%;
+}
+
+/** No.3 **/
+
+#number03{
+	margin:10% 0;
+}
+
+#number03 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number03 h2 img{
+	width:22%;
+	padding:5% 0 2%;
+}
+
+#number03 .number03_txt{
+	float:left;
+	padding-left:4%;
+	width:43%;
+	font-size:85%;
+	font-weight:500;
+}
+
+#number03 .number03_img{
+	float:right;
+	text-align:center;
+	width:48%;
+}
+
+#number03 .number03_img img{
+	width:100%;
+}
+
+/** No.4 **/
+
+#number04{
+	margin:10% 0 20%;
+}
+
+#number04 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number04 h2 img{
+	width:22%;
+	padding:5% 0 2%;
+}
+
+#number04 .number04_txt{
+	float:right;
+	padding-right:4%;
+	width:43%;
+	font-size:85%;
+	font-weight:500;
+}
+
+#number04 .number04_img{
+	float:left;
+	text-align:center;
+	width:48%;
+}
+
+#number04 .number04_img img{
+	width:100%;
+}
+
+}

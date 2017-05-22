@@ -1,0 +1,264 @@
+/* スマホCSS */
+@media screen and (max-width:767px) {
+
+#wrapper{
+	width: 100%;
+	padding-left: 0px;
+	min-height: 100%;
+	font-size:100%;
+  	position:relative;
+	overflow:hidden;
+	zoom:1;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/**side_navi**/
+#side_navir{
+	height:100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 1000;
+	width:auto;
+	font-size: 16px;
+	background-color: white;
+}
+
+h1.logo{
+	width:90%;
+	margin:0 auto;
+}
+
+.logo img{
+	width:85%;
+}
+
+#side_navir h2 img{
+	width:88%;
+	padding:3%;
+}
+
+#navigation ul{
+	width:90%;
+	margin:2% auto 5%;
+}
+
+#navigation li{
+	font-weight:bold;
+	color:#363636;
+	font-size:100%;
+	padding:0.4rem 0;
+}
+
+#navigation li a:hover{
+	color:#AF282A;
+}
+
+.blue{
+	color:#15A0D3;
+}
+
+#smartphoneTop{
+	padding-top:100px;
+	width:70%;
+	margin:0 auto;
+}
+
+#slide_images{
+	display:none;
+}
+
+.sp_main_image{
+	margin-top:20%;
+}
+
+.sp_main_image img{
+	width:100%;
+}
+
+/**spritehoverEnd**/
+
+.snsicon{
+	display:none;
+}
+
+#sidebar{
+	display:none;
+}
+
+/**headerEnd**/
+
+/**contents**/
+#main{
+	
+}
+
+/** パンくず **/
+.breadcrumb{
+	margin-bottom:10%;
+}
+
+.breadcrumb ul{
+	text-align:left;
+	padding:1em 0 1em 0.5em;
+}
+
+.breadcrumb li{
+	display:inline;
+}
+
+/** 冒頭部 **/
+
+#beginning_part{
+	background:url(../images/title_bg.jpg) 73% center no-repeat;
+	background-size:cover;
+	width:100%;
+}
+
+.beginning_part_inner{
+	text-align:center;
+	color:#FFFFFF;
+	width:90%;
+	margin:0 auto;
+	padding:10% 0;
+}
+
+.beginning_part_inner h1{
+	font-size:150%;
+	padding:0.5em 0;
+}
+
+.beginning_part_inner h2{
+	font-size:120%;
+}
+
+.beginning_part_inner p{
+	font-weight:500;
+	text-align:left !important;
+	line-height:1.2;
+}
+
+/** No.1 **/
+
+#number01{
+	margin:20% 0 0;
+}
+
+#number01 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number01 h2 img{
+	width:28%;
+}
+
+#number01 .number01_txt{
+	display:block;
+	width:90%;
+	margin:0 auto;
+}
+
+#number01 .number01_img{
+	display:block;
+	margin-top:5%;
+}
+
+#number01 .number01_img img{
+	width:100%;
+}
+
+/** No.2 **/
+
+#number02{
+	margin:20% 0 0;
+}
+
+#number02 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number02 h2 img{
+	width:28%;
+}
+
+#number02 .number02_txt{
+	display:block;
+	width:90%;
+	margin:0 auto;
+}
+
+#number02 .number02_img{
+	display:block;
+	margin-top:5%;
+}
+
+#number02 .number02_img img{
+	width:100%;
+}
+
+/** No.3 **/
+
+#number03{
+	margin:20% 0 0;
+}
+
+#number03 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number03 h2 img{
+	width:28%;
+}
+
+#number03 .number03_txt{
+	display:block;
+	width:90%;
+	margin:0 auto;
+}
+
+#number03 .number03_img{
+	display:block;
+	margin-top:5%;
+}
+
+#number03 .number03_img img{
+	width:100%;
+}
+
+/** No.4 **/
+
+#number04{
+	margin:20% 0;
+}
+
+#number04 h1{
+	padding:1em 0;
+	font-size:120%;
+}
+
+#number04 h2 img{
+	width:28%;
+}
+
+#number04 .number04_txt{
+	display:block;
+	width:90%;
+	margin:0 auto;
+}
+
+#number04 .number04_img{
+	display:block;
+	margin-top:5%;
+}
+
+#number04 .number04_img img{
+	width:100%;
+}
+
+}

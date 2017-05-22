@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main #honbun {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FFC;
+}
+
+#main #honnbun2 {
+	text-align: left;
+	clear: both;
+}
+#main #honbun3 {
+	background-color: #FCF;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px;
+	margin-bottom: 30px;
+}
+#main #honbun3 .text {
+	text-align: left;
+	padding: 20px;
+}
+.sub_title2 {
+	font-size: x-large;
+	color: #F09;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+
+.w1 {
+	float: left;
+	width: 400px;
+	padding-left: 50px;
+}
+.w2 {
+	float: left;
+	height: 210px;
+	text-align: center;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.w3 {
+	width: 600px;
+	float: left;
+}
+.w4 {
+	width: 260px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+hr {
+	border-top-width: 2px;
+	border-top-style: dashed;
+	border-top-color: #600;
+	width: 800px;
+}
+.box1 {
+	background-color: #FFC;
+	width: 700px;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

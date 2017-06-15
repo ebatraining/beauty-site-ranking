@@ -166,7 +166,7 @@ h1.logo{
   height: 36px;
   padding-right: 10px;
   padding-bottom: 10px;
-  background-image: url("../img/link.jpg");
+  background-image: url("../images/link.jpg");
   background-repeat: no-repeat;
   text-indent: -20000px;
 }
@@ -183,7 +183,7 @@ h1.logo{
   display: block;
   width: 131px;
   height: 44px;
-  background-image: url("../img/pageTop.jpg");
+  background-image: url("../images/pageTop.jpg");
   text-indent: -19999px;
 }
 .list-mv02{
@@ -225,13 +225,13 @@ main{
 
 .sub_page{
 	width: 90%;
-	margin: 0 auto 10rem; 
+	margin: 0 auto 10rem;
 }
 
 .news{
     overflow: hidden;
     border:1px #7A7A7C solid;
-    margin:4%;  
+    margin:4%;
 }
 
 .news_title{
@@ -273,7 +273,7 @@ data{
   font-size: 13px;
   color:#ADADAD;
 
-} 
+}
 
 
 /* sub */
@@ -294,11 +294,11 @@ data{
 
 #sub h1{
   padding-top: 5%;
-  color:#72D3EB; 
+  color:#72D3EB;
 }
 
 #sub p{
-  padding-top: 2%; 
+  padding-top: 2%;
   width: 29%;
   line-height:2;
   margin-right: 3%;
@@ -308,7 +308,7 @@ data{
 }
 
 #sub img{
-	padding-top: 2%; 
+	padding-top: 2%;
 	width: 29%;
 	margin-right: 3%;
 	float:left;
@@ -361,7 +361,7 @@ data{
 	border-bottom: 1px solid #7A7A7C;
 	padding-top: 5%;
 	padding-bottom:2%;
-	color:#6D622D; 
+	color:#6D622D;
 }
 
 #shop1 h4,
@@ -405,7 +405,7 @@ data{
 	height:10rem;
 	padding-bottom: 1rem ;
 	line-height:1.5rem;
-	margin-top: 2%; 
+	margin-top: 2%;
 	color:#7D7D7D;
 	font-size:90%;
 }
@@ -417,10 +417,10 @@ data{
 	margin: 0.5rem auto 0;
 	width: 70%;
 	border:1px #000 solid;
-	text-align: center;    
+	text-align: center;
 }
 
-.switch a{     
+.switch a{
 	background-color: #333;
 	padding: 2%1%2%1%;
 	color: #fff;
@@ -443,10 +443,10 @@ data{
 	margin: 0.5rem auto 0;
 	width: 70%;
 	border:1px #000 solid;
-	text-align: center;    
+	text-align: center;
 }
 
-.switch2 a{     
+.switch2 a{
 	background-color: #333;
 	padding: 2%1%2%1%;
 	color: #fff;
@@ -470,15 +470,15 @@ data{
 
 
 .table1{
-  margin:2% auto; 
-  border:1px #CFA938 solid;  
+  margin:2% auto;
+  border:1px #CFA938 solid;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.table1 th{ 
-  padding: 2%2%2%2%; 
+.table1 th{
+  padding: 2%2%2%2%;
   border:1px #CFA938 solid;
   margin-top:10%;
   text-align: left;
@@ -492,7 +492,7 @@ data{
   padding: 2%2%2%2%;
   font-size: 14px;
   color:#B26E8F;
-  
+
 }
 
 
@@ -503,7 +503,7 @@ data{
 
 .left1{
   line-height:1.5rem;
-  padding:4%; 
+  padding:4%;
   width: 40%;
   border:none;
   vertical-align:top;
@@ -533,9 +533,9 @@ data{
 
 #search1,
 #search2,
-#search3{    
+#search3{
     display:block;
-    overflow: hidden; 
+    overflow: hidden;
     position: relative; /*DWで正常にプレビューできるようになる*/
 }
 
@@ -561,7 +561,7 @@ data{
 #search4 h3{
   padding-top: 4%;
   padding-bottom:2%;
-  color:#6D622D; 
+  color:#6D622D;
 }
 
 #site1 img,
@@ -578,7 +578,7 @@ data{
 #search3 p,
 #search4 p{
   height: 10em;
-  line-height:1.5rem; 
+  line-height:1.5rem;
   color:#7D7D7D;
   font-size:12px;
 }
@@ -598,7 +598,7 @@ data{
 
 #footer_body{
 background:#dbdbdb;
-overflow: hidden; 
+overflow: hidden;
 width:100%;
 }
 
@@ -627,7 +627,7 @@ width:100%;
    float: left;
    width:15%;
    margin:  5% 0% 2% 5%;
-   line-height:1.5; 
+   line-height:1.5;
 }
 
 .f1 img{
@@ -639,7 +639,7 @@ width:100%;
    float: left;
    width:20%;
    margin:  4% 2% 3% 4%;
-   line-height:2; 
+   line-height:2;
 
 }
 
@@ -648,7 +648,7 @@ width:100%;
    float: left;
    width:25%;
    margin:  4% 4% 3% 0%;
-   line-height:2; 
+   line-height:2;
 
 }
 
@@ -657,7 +657,7 @@ width:100%;
    float: left;
    width:20%;
    margin:  4% 2% 0% 0%;
-   line-height:2; 
+   line-height:2;
 
 }
 
@@ -673,8 +673,8 @@ text-align: center;
 
 .f4 botton{
 
-  overflow: hidden;    
-  margin : 0 auto ; 
+  overflow: hidden;
+  margin : 0 auto ;
   width: 150px;
   height: 50px;
   border:1px;
@@ -683,7 +683,7 @@ text-align: center;
   color: #848484;
   text-align: center;
 
-      
+
 }
 
 /*戻る*/

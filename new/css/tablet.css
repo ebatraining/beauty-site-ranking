@@ -32,7 +32,7 @@
 }
 .conte{
   margin-top: 80px;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: 0px 0px;
   background-repeat: no-repeat;
   height: 28px;
@@ -41,7 +41,7 @@
 }
 .special{
   margin-top: 0px;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: 0px -320px;
   background-repeat: no-repeat;
   height: 28px;
@@ -51,7 +51,7 @@
 
 #smartNav .home a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -3px -53px;
   background-repeat: no-repeat;
   height: 22px;
@@ -60,7 +60,7 @@
 }
 #smartNav .history a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -3px -103px;
   background-repeat: no-repeat;
   height: 22px;
@@ -69,7 +69,7 @@
 }
 #smartNav .why a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -3px -155px;
   background-repeat: no-repeat;
   height: 22px;
@@ -78,7 +78,7 @@
 }
 #smartNav .sleep a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -3px -204px;
   background-repeat: no-repeat;
   height: 22px;
@@ -87,7 +87,7 @@
 }
 #smartNav .stress a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -3px -256px;
   background-repeat: no-repeat;
   height: 22px;
@@ -96,7 +96,7 @@
 }
 #smartNav .sbp{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -3px -369px;
   background-repeat: no-repeat;
   height: 22px;
@@ -132,7 +132,7 @@ h1{
   padding-left: 60px;
 }
 #spfoot{
-  background-image: url("../img/smartphoneBack.jpg");
+  background-image: url("../images/smartphoneBack.jpg");
   background-position: bottom;
   width: 100%;
   height: 500px;
@@ -191,7 +191,7 @@ h1{
   height: 24px;
   padding-right: 10px;
   padding-bottom: 10px;
-  background-image: url("../img/link.jpg");
+  background-image: url("../images/link.jpg");
   background-size:200px;
   background-repeat: no-repeat;
   text-indent: -20000px;
@@ -205,7 +205,7 @@ h1{
   display: block;
   width: 131px;
   height: 44px;
-  background-image: url("../img/pageTop.jpg");
+  background-image: url("../images/pageTop.jpg");
   text-indent: -19999px;
 }
 #footer{
@@ -227,7 +227,7 @@ h1{
     height: 24px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-image: url("../img/link.jpg");
+    background-image: url("../images/link.jpg");
     background-size:150px;
     background-repeat: no-repeat;
     text-indent: -20000px;
@@ -287,7 +287,7 @@ margin-right: 3px;
 }
 #smartNav .home a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -1px -36px;
   background-repeat: no-repeat;
   height: 11px;
@@ -299,7 +299,7 @@ margin-right: 3px;
 }
 #smartNav .history a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -1px -77px;
   background-repeat: no-repeat;
   height: 11px;
@@ -311,7 +311,7 @@ margin-right: 3px;
 }
 #smartNav .why a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -1px -119px;
   background-repeat: no-repeat;
   height: 11px;
@@ -323,7 +323,7 @@ margin-right: 3px;
 }
 #smartNav .sleep a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -1px -160px;
   background-repeat: no-repeat;
   height: 11px;
@@ -335,7 +335,7 @@ margin-right: 3px;
 }
 #smartNav .stress a{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -1px -201px;
   background-repeat: no-repeat;
   height: 11px;
@@ -347,7 +347,7 @@ margin-right: 3px;
 }
 #smartNav .sbp{
   display: block;
-  background-image: url("../img/sprite.jpg");
+  background-image: url("../images/sprite.jpg");
   background-position: -1px -263px;
   background-repeat: no-repeat;
   height: 11px;

@@ -72,47 +72,8 @@ $(document).ready(function() {
 <body class="drawer drawer--left" id="home">
 	<p class="pagetop"><a href="#wrap">▲</a></p>
 	<div id="wrapper">
-		<aside id="side_menu">
-			<div class="banner">
-				<div id="smartphone">
-					<button type="button" class="drawer-toggle drawer-hamburger">
-						<span class="sr-only">toggle navigation</span>
-						<span class="drawer-hamburger-icon"></span>
-					</button>
-          <aside id="side_menu">
-      			<?php include( $_SERVER['DOCUMENT_ROOT'] . '/side_menu.html'); ?>
-      		</aside>
-					</div>
-				</div>
-				<div id="side_menu_pc"><!-- PC・タブレット向けサイドメニュー -->
-				<h1 class="logo">
-				<a href="index.html"><img src="img/sitelogo.jpg" alt="BeautySiteRanking"></a>
-				</h1>
-				<nav id="navigation">
-					<h2><img src="img/contents.jpg" alt="contents"></h2>
-					<ul>
-						<li class="home"><a href="../new/index.html"><i class="fa fa-chevron-circle-right blue" aria-hidden="true"></i>&nbsp;HOME</a></li>
-						<li class="history"><a href="../history/index.html"><i class="fa fa-chevron-circle-right blue" aria-hidden="true"></i>&nbsp;美容と歴史</a></li>
-						<li class="why"><a href="../html/why.html"><i class="fa fa-chevron-circle-right blue" aria-hidden="true"></i>&nbsp;美容と欲求</a></li>
-						<li class="sleep"><a href="../sleep/index.html"><i class="fa fa-chevron-circle-right blue" aria-hidden="true"></i>&nbsp;美容と睡眠</a></li>
-						<li class="stress"><a href="#"><i class="fa fa-chevron-circle-right blue" aria-hidden="true"></i>&nbsp;美容とストレス</a></li>
-					</ul>
-						<h2><img src="img/special.jpg" alt="special"></h2>
-					<ul>
-						<li>
-						<i class="fa fa-chevron-circle-right blue" aria-hidden="true"></i>
-						<a class="sbp" href="http://beauty-info.mobi/self_beauty_program/">&nbsp;Self Beauty Program</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="snsicon">
-					<a href="#" class="facebook-button"><img src="img/facebook.png"></a>
-					<a href="https://twitter.com/intent/tweet?button_hashtag=Beautysiteranking" class="twitter-hashtag-button" >
-					<img src="img/twitter.png" alt="twitter" class="aligncenter size-full wp-image-7623">
-					</a>
-					<a href="#" class="gplus-button"><img src="img/gplus.png"></a>
-				</div>
-			</div>
+    <aside id="side_menu">
+			<?php include( $_SERVER['DOCUMENT_ROOT'] . '/side_menu.html'); ?>
 		</aside>
 
 		<!--main-->

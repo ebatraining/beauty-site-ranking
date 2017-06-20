@@ -177,6 +177,121 @@ main{
 /****** 20170620 メインカラム追加分 *******/
 
 
+h1.midashi1{
+  color:#866857;
+  margin-bottom: 3em;
+  border-bottom: dashed 3px #F8EC69;
+  width:35%;
+}
+
+p.komidashi{
+    width:40%;
+    float:right;
+    color:#568E5A;
+    margin-right:20%;
+    margin-top:5%;
+}
+
+.why{
+    margin-bottom:3em;
+}
+
+h2{
+    color:#776CA3;
+    margin-bottom: 1em;
+}
+
+.maruni{
+    float:right;
+    margin-bottom:80%;
+    width:auto;
+
+}
+
+p.text{
+    color:#568E5A;
+    margin-top:1em;
+}
+
+.marusan{
+    float:right;
+    margin-bottom:80%;
+    width:auto;
+}
+
+.marugo{
+    float:right;
+}
+
+h1.midashi2{
+    color:#866857;
+    border-bottom: dashed 3px #F8EC69;
+    width:35%;
+    margin-top:40%;
+}
+
+h3{
+    color:#776CA3;
+    margin-top:5em;
+    margin-bottom: 2em;
+    margin-left:5%;
+}
+
+img.baby{
+margin-left: 30%;
+margin-bottom: 1em;
+}
+
+p.text2{
+    color:#568E5A;
+    width:70%;
+    text-align: center;
+    margin-left:20%;
+}
+
+img.icon{
+    margin-left:45%;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+
+img.miro{
+    margin-left: 5%;
+}
+
+.balance{
+    float:right;
+}
+
+p.text3{
+    color:#568E5A;
+    width:60%;
+}
+
+p.text4{
+  color:#568E5A;
+  width:50%;
+}
+
+.tenbin{
+    overflow: hidden;
+}
+img.tenbin{
+    float:right;
+    margin-bottom:50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /****** 20170620 メインカラム追加分 end *******/
 
@@ -186,6 +301,8 @@ main{
 background:#dbdbdb;
 overflow: hidden;
 width:100%;
+
+
 }
 
 #footer_body h3{

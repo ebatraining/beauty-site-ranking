@@ -1,0 +1,309 @@
+@media screen and (max-width: 767px) {
+
+*{
+ font-size: 77% ;
+ font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+#wrapper{
+  width:100%;
+  margin:0 auto;
+  min-height: 100%;
+  overflow:hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  vertical-align: bottom;
+  max-width : 100% ;
+ height : auto ;
+  float : none ;
+  text-align:center;
+
+}
+/**サイドメニュー**/
+
+#side_menu_pc{
+	display:none;
+}
+
+#side_menu{
+  height:100%;
+  position: fixed;
+  left: 0;
+  top:0;
+  z-index: 1000;
+  font-size: 16px;
+  background-color: white;
+}
+
+h1.logo{
+  width:90%;
+  margin:0 auto;
+}
+
+.logo img{
+  width:85%;
+  padding:2%;
+   max-width : 100% ;
+ height : auto ;
+  float : none ;
+
+}
+
+#side_menu h2 img{
+  width:88%;
+  padding:3%;
+}
+
+#navigation ul{
+  width:90%;
+  margin:2% auto 5%;
+}
+
+#navigation li{
+  font-weight:bold;
+  color:#363636;
+  font-size:100%;
+  padding:0.4rem 0;
+}
+
+#navigation li a:hover{
+  color:#AF282A;
+}
+
+.blue{
+  color:#15A0D3;
+}
+
+
+/**spritehoverEnd**/
+
+.drawer-toggle,#smartphone{
+
+}
+
+.snsicon{
+  width: auto;
+  margin: 0 auto;
+  padding-top:2%;
+  text-align: center;
+}
+.snsicon a{
+  margin-right:3px;
+}
+
+/**サイドメニューEnd**/
+
+/**contents**/
+
+#smartphoneTop{
+  display: none
+}
+
+.topcontents{
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 950px;
+  overflow: hidden;
+  padding:3%;
+}
+.sitesName{
+  height: 150px;
+  padding-left:220px;
+  margin-bottom: 50px;
+}
+
+.noimage{
+  float: left;
+}
+
+.sitesName h2{
+  font-size: 36px;
+  font-weight: bold;
+}
+.sitesName h3{
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight:100;
+  margin-bottom: 25px;
+}
+.topcontents figure{
+  width: 100%;
+  /*height: 350px;*/
+}
+.siteImages{
+  margin: 0 auto;
+  margin-left: 80px;
+  margin-bottom:50px;
+}
+
+.list-mv02{
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.inner_img{
+  width:35%;
+  padding:0 2%
+}
+
+.mv02{
+  opacity: 1.0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+/*main*/
+
+main{
+  padding-top:4rem;
+}
+
+.simpleSlideShow img{
+	width:100%;
+}
+
+#slide {
+width:640px;
+height:300px;
+margin:0 auto;
+position:relative;
+}
+
+#slide img {
+
+left:0;
+top:0;
+
+max-width : 100% ;
+height : auto ;
+float : none ;
+}
+
+
+
+
+
+
+/* footer */
+
+#footer_body{
+background:#dbdbdb;
+color:#333333;
+/*border: 1px solid #848484;*/
+overflow: hidden;
+width:100%;
+}
+
+#footer_body h3{
+	font-weight: bold;
+	font-size: 90%;
+}
+
+#footer_body p{
+	font-size: 80%;
+	font-weight:600;
+}
+
+.f1{
+
+   float: left;
+   width:15%;
+   margin:  5% 0% 2% 13%;
+   line-height:1.5rem;
+
+}
+
+.f2{
+
+   float: left;
+   width:15%;
+   margin:  4% 2% 3% 5%;
+   line-height:1.5rem;
+
+}
+
+.f3{
+
+   float: left;
+   width:15%;
+   margin:  4% 4% 3% 0%;
+   line-height:1.5rem;
+
+}
+
+.f4{
+
+   float: left;
+   width:20%;
+   margin:  4% 2% 0% 0%;
+   line-height:1.5rem;
+
+}
+
+
+.f5{
+ float: left;
+  width: 100%;
+  margin:  10% 2% 1% 4%;
+text-align: center;
+}
+
+
+
+.f4 botton{
+
+  overflow: hidden;
+  margin : 0 auto ;
+  width: 150px;
+  height: 50px;
+  border:1px;
+  background-color:#fff;
+  padding: 1%5%2%5%;
+  color: #848484;
+  text-align: center;
+
+
+}
+
+
+
+/*戻る*/
+
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+  filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+}

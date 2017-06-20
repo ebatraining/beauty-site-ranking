@@ -1,0 +1,307 @@
+﻿
+@media screen and (min-width: 768px){
+
+
+*{
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+
+#wrapper{
+  max-width:1200px;
+  margin:0 auto;
+  min-height: 100%;
+  overflow:hidden;
+  zoom:1;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  vertical-align: bottom;
+}
+/**サイドメニュー**/
+#side_menu{
+  height:100%;
+  position: fixed;
+  left: 0;
+  top:0;
+  width:16%;
+  float:left;
+  font-size: 16px;
+  background-color: white;
+  padding:1% 0 2% 1%;
+}
+
+h1.logo{
+  width:90%;
+  margin:0 auto;
+}
+
+.logo img{
+  width:85%;
+  padding:2%;
+}
+
+#side_menu h2 img{
+  width:88%;
+  padding:3%;
+}
+
+#navigation ul{
+  width:90%;
+  margin:2% auto 5%;
+}
+
+#navigation li{
+  font-weight:bold;
+  color:#363636;
+  font-size:81%;
+  padding:0.4rem 0;
+}
+
+#navigation li a:hover{
+  color:#AF282A;
+}
+
+.blue{
+  color:#15A0D3;
+}
+
+/**spritehoverEnd**/
+
+.drawer-toggle,#smartphone{
+	display:none;
+}
+
+.snsicon{
+  width: auto;
+  margin: 0 auto;
+  padding-top:2%;
+  text-align: center;
+}
+
+.snsicon img{
+	width:15%;
+}
+
+.snsicon a{
+  margin-right:3px;
+}
+
+/**headerEnd**/
+
+/**contents**/
+
+#smartphoneTop{
+  display: none
+}
+
+.topcontents{
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 950px;
+  overflow: hidden;
+  padding:3%;
+}
+.sitesName{
+  height: 150px;
+  padding-left:220px;
+  margin-bottom: 50px;
+}
+
+
+.noimage{
+  float: left;
+}
+
+.sitesName h2{
+  font-size: 36px;
+  font-weight: bold;
+}
+.sitesName h3{
+  padding-top: 50px;
+  font-size: 24px;
+  font-weight:100;
+  margin-bottom: 25px;
+}
+.topcontents figure{
+  width: 100%;
+  /*height: 350px;*/
+}
+.siteImages{
+  margin: 0 auto;
+  margin-left: 80px;
+  margin-bottom:50px;
+}
+
+.list-mv02{
+  opacity: 0;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.inner_img{
+  width:35%;
+  padding:0 2%
+}
+
+.mv02{
+	opacity: 1.0;
+	-webkit-transition: 0.7s;
+	transition: 0.7s;
+}
+
+/*main*/
+
+main{
+	width: 80%;
+	float:right;
+}
+
+#slide {
+	width:100%;
+	height:300px;
+	margin:0 auto;
+	position:relative;
+}
+
+#slide img {
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+/****** 20170620 メインカラム追加分 *******/
+
+
+
+/****** 20170620 メインカラム追加分 end *******/
+
+/* footer */
+
+#footer_body{
+background:#dbdbdb;
+overflow: hidden;
+width:100%;
+}
+
+#footer_body h3{
+	color:#535353;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+#footer_body p{
+	font-size: 80%;
+	color:#535353;
+	font-weight:600;
+}
+
+#footer_body a{
+  color:#535353;
+  font-weight:600;
+}
+
+#footer_body a:hover{
+  color:#AF282A;
+}
+
+.f1{
+   float: left;
+   width:15%;
+   margin:  5% 0% 2% 5%;
+   line-height:1.5;
+}
+
+.f1 img{
+	width:100%;
+}
+
+.f2{
+
+   float: left;
+   width:20%;
+   margin:  4% 2% 3% 4%;
+   line-height:2;
+
+}
+
+.f3{
+
+   float: left;
+   width:25%;
+   margin:  4% 4% 3% 0%;
+   line-height:2;
+
+}
+
+.f4{
+
+   float: left;
+   width:20%;
+   margin:  4% 2% 0% 0%;
+   line-height:2;
+
+}
+
+
+.f5{
+ float: left;
+  width: 100%;
+  margin:  10% 2% 1% 4%;
+text-align: center;
+}
+
+
+
+.f4 botton{
+
+  overflow: hidden;
+  margin : 0 auto ;
+  width: 150px;
+  height: 50px;
+  border:1px;
+  background-color:#fff;
+  padding: 1%5%2%5%;
+  color: #848484;
+  text-align: center;
+
+
+}
+
+/*戻る*/
+
+.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+  filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding:5px 10px;
+  filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+}

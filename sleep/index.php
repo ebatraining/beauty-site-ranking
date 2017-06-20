@@ -15,51 +15,9 @@
 
 <body class="drawer drawer--left" id="home">
     <div id="wrapper">
-        <div id="smartphoneTop">
-            <h1><img src="images/sitelogo.jpg" alt="BeautySiteRanking"></h1>
-            <div id="spfoot">
-            </div>
-        </div><!--smartphoneTopEnd-->
-        <div id="side_navi" role="banner">
-            <div id="smartphone"><!-- スマホ用header -->
-                <button type="button" class="drawer-toggle drawer-hamburger">
-                    <span class="sr-only">toggle navigation</span>
-                    <span class="drawer-hamburger-icon"></span>
-                </button>
-                <aside id="side_menu">
-            			<?php include( $_SERVER['DOCUMENT_ROOT'] . '/side_menu.html'); ?>
-            		</aside>
-            </div><!--smartphoneEnd-->
-            <div id="sidebar"><!-- PC・タブレット用header -->
-                <h1 class="logo">
-                    <a href="../new"><img src="images/sitelogo.jpg" alt="BeautySiteRanking"></a>
-                </h1>
-
-                <nav id="navigation">
-                    <h2><img src="images/contents.jpg" alt="contents"></h2>
-                    <ul>
-                        <li class="home"><span class="blue">&#x25B6;</span><a href="../new/index.html">&nbsp;HOME</a></li>
-                        <li class="history"><span class="blue">&#x25B6;</span><a href="../history/index.html">&nbsp;美容と歴史</a></li>
-                        <li class="why"><span class="blue">&#x25B6;</span><a href="../html/why.html">&nbsp;美容と欲求</a></li>
-                        <li class="sleep"><span class="blue">&#x25B6;</span><a href="#">&nbsp;美容と睡眠</a></li>
-                        <li class="stress"><span class="blue">&#x25B6;</span><a href="../stress/index.html">&nbsp;美容とストレス</a></li>
-                    </ul>
-                    <h2><img src="images/special.jpg" alt="special"></h2>
-                    <ul>
-                        <li>
-                        <span class="blue">&#x25B6;</span><a class="sbp" href="http://beauty-info.mobi/self_beauty_program/">&nbsp;Self Beauty Program</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="snsicon">
-                    <a href="#" class="facebook-button"><img src="images/facebook.png"></a>
-                    <a href="https://twitter.com/intent/tweet?button_hashtag=Beautysiteranking" class="twitter-hashtag-button" >
-                    <img src="images/twitter.png" alt="twitter" class="aligncenter size-full wp-image-7623">
-                    </a>
-                    <a href="#" class="gplus-button"><img src="images/gplus.png"></a>
-                </div>
-            </div><!--sidebarEnd-->
-        </div>
+        <aside id="side_menu">
+    			<?php include( $_SERVER['DOCUMENT_ROOT'] . '/side_menu.html'); ?>
+    		</aside>
         <div id="contents">
             <div id="main">
                 <div id="slide_images">

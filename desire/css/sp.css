@@ -1,15 +1,22 @@
-@media screen and (max-width: 767px) {
+
+@media screen and (min-width: 767px){
+
 
 *{
- font-size: 77% ;
- font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+}
+
+body{
+    background-color:#feffe4;
+
 }
 
 #wrapper{
-  width:100%;
+  max-width:1200px;
   margin:0 auto;
   min-height: 100%;
   overflow:hidden;
+  zoom:1;
 }
 
 a{
@@ -18,26 +25,18 @@ a{
 }
 img{
   vertical-align: bottom;
-  max-width : 100% ;
- height : auto ;
-  float : none ;
-  text-align:center;
-
 }
 /**サイドメニュー**/
-
-#side_menu_pc{
-	display:none;
-}
-
 #side_menu{
   height:100%;
   position: fixed;
   left: 0;
   top:0;
-  z-index: 1000;
+  width:16%;
+  float:left;
   font-size: 16px;
   background-color: white;
+  padding:1% 0 2% 1%;
 }
 
 h1.logo{
@@ -48,10 +47,6 @@ h1.logo{
 .logo img{
   width:85%;
   padding:2%;
-   max-width : 100% ;
- height : auto ;
-  float : none ;
-
 }
 
 #side_menu h2 img{
@@ -67,7 +62,7 @@ h1.logo{
 #navigation li{
   font-weight:bold;
   color:#363636;
-  font-size:100%;
+  font-size:81%;
   padding:0.4rem 0;
 }
 
@@ -79,11 +74,10 @@ h1.logo{
   color:#15A0D3;
 }
 
-
 /**spritehoverEnd**/
 
 .drawer-toggle,#smartphone{
-
+	display:none;
 }
 
 .snsicon{
@@ -92,11 +86,16 @@ h1.logo{
   padding-top:2%;
   text-align: center;
 }
+
+.snsicon img{
+	width:15%;
+}
+
 .snsicon a{
   margin-right:3px;
 }
 
-/**サイドメニューEnd**/
+/**headerEnd**/
 
 /**contents**/
 
@@ -116,6 +115,7 @@ h1.logo{
   padding-left:220px;
   margin-bottom: 50px;
 }
+
 
 .noimage{
   float: left;
@@ -153,37 +153,32 @@ h1.logo{
 }
 
 .mv02{
-  opacity: 1.0;
-  -webkit-transition: 0.7s;
-  transition: 0.7s;
+	opacity: 1.0;
+	-webkit-transition: 0.7s;
+	transition: 0.7s;
 }
 
 /*main*/
 
 main{
-  padding-top:4em;
-}
 
-.simpleSlideShow img{
-	width:100%;
+
 }
 
 #slide {
-width:640px;
-height:300px;
-margin:0 auto;
-position:relative;
+	width:100%;
+	height:300px;
+	margin:0 auto;
+	position:relative;
 }
 
 #slide img {
-
-left:0;
-top:0;
-
-max-width : 100% ;
-height : auto ;
-float : none ;
+	position:absolute;
+	left:0;
+	top:0;
 }
+
+
 
 
 
@@ -193,30 +188,33 @@ float : none ;
 
 h1.midashi1{
   color:#866857;
-  margin-top:3em;
-  margin-bottom: 1em;
+  margin-top:8em;
+  margin-bottom: 3em;
   border-bottom: dashed 3px #F8EC69;
-  width:85%;
+  width:50%;
+  font-size: 25px;
   font-weight: bold;
-  font-size:18px;
-  letter-spacing:1px;
-  margin-left:5%;
+  letter-spacing:5px;
 }
 
 p{
-  font-size: 12px;
-
+  font-size: 18px;
+  letter-spacing: 5px;
+  line-height: 30px;
 }
 
 h2,h3{
-  font-size: 15px;
-  letter-spacing:1px;
+  font-size: 18px;
+  letter-spacing:5px;
 }
 
 p.komidashi{
+    width:40%;
+    float:right;
     color:#568E5A;
-    width:80%;
-    margin-left: 10%;
+    margin-right:20%;
+    margin-top:5%;
+    letter-spacing:5px;
     margin-bottom: 5em;
 }
 
@@ -230,13 +228,14 @@ h2{
 }
 
 .maruiti{
+    display: inline-block;
     margin-top:3em;
-    margin-left: 11%;
+    margin-left: 2px;
 }
 
 .maruni{
-    margin-top:3em;
-    margin-left: 7%;
+    display: inline-block;
+    margin-top:8em;
 }
 
 p.text{
@@ -248,12 +247,11 @@ p.text{
 h1.midashi2{
     color:#866857;
     border-bottom: dashed 3px #F8EC69;
-    width:70%;
-    margin-top:3em;
-    font-size: 18px;
+    width:40%;
+    margin-top:8em;
+    font-size: 25px;
     font-weight: bold;
-    letter-spacing:1px;
-    margin-left: 3%;
+    letter-spacing:5px;
 }
 
 h3.baby1{
@@ -261,14 +259,15 @@ h3.baby1{
   margin-top:5em;
   margin-bottom: 1em;
   margin-left:5%;
-  font-size:15px;
+  font-size:20px;
 }
 
 h3.balance{
     color:#776CA3;
-    margin-top:3em;
-    margin-bottom: 1em;
-    font-size: 15px;
+    margin-top:5em;
+    margin-bottom: 2em;
+    margin-left:5%;
+    font-size: 20px;
 }
 
 h3.taisyou{
@@ -277,6 +276,7 @@ h3.taisyou{
 }
 
 img.baby{
+    margin-left: 25%;
     margin-bottom: 1em;
 }
 
@@ -289,14 +289,14 @@ p.text2{
 }
 
 img.icon1{
-  margin-left: 37%;
-  margin-top: 3em;
+  text-align: center;
+
 }
 
 img.icon2{
-  margin-left: 37%;
-  margin-bottom: 3em;
+    text-align: center;
 }
+
 
 img.miro{
     float:left;
@@ -305,23 +305,28 @@ img.miro{
     margin-right: 3em;
 }
 
+
 p.text3{
     color:#568E5A;
-    width:90%;
-    margin-bottom: 8em;
-}
-
-h3.taisyou{
-  color:#776CA3;
-  font-size: 15px;
+    margin-bottom: 5em;
+    width:85%;
 }
 
 p.text4{
   color:#568E5A;
-  width:90%;
-  margin-bottom:10em;
-  margin-left: 5%;
+  width:50%;
+  margin-bottom:5em;
 }
+
+img.tenbin{
+  margin-bottom:15em;
+}
+
+
+
+
+
+
 
 
 
@@ -332,59 +337,63 @@ p.text4{
 
 /****** 20170620 メインカラム追加分 end *******/
 
-
-
-
-
-
-
-
-
-
 /* footer */
 
 #footer_body{
 background:#dbdbdb;
-color:#333333;
-/*border: 1px solid #848484;*/
 overflow: hidden;
 width:100%;
+
+
 }
 
 #footer_body h3{
+	color:#535353;
 	font-weight: bold;
 	font-size: 90%;
 }
 
 #footer_body p{
 	font-size: 80%;
+	color:#535353;
 	font-weight:600;
 }
 
-.f1{
+#footer_body a{
+  color:#535353;
+  font-weight:600;
+}
 
+#footer_body a:hover{
+  color:#AF282A;
+}
+
+.f1{
    float: left;
    width:15%;
-   margin:  5% 0% 2% 13%;
-   line-height:1.5rem;
+   margin:  5% 0% 2% 5%;
+   line-height:1.5;
+}
 
+.f1 img{
+	width:100%;
 }
 
 .f2{
 
    float: left;
-   width:15%;
-   margin:  4% 2% 3% 5%;
-   line-height:1.5rem;
+   width:20%;
+   margin:  4% 2% 3% 4%;
+   line-height:2;
 
 }
 
 .f3{
 
    float: left;
-   width:15%;
+   width:25%;
    margin:  4% 4% 3% 0%;
-   line-height:1.5rem;
+   line-height:2;
 
 }
 
@@ -393,7 +402,7 @@ width:100%;
    float: left;
    width:20%;
    margin:  4% 2% 0% 0%;
-   line-height:1.5rem;
+   line-height:2;
 
 }
 
@@ -421,8 +430,6 @@ text-align: center;
 
 
 }
-
-
 
 /*戻る*/
 
@@ -452,9 +459,8 @@ text-align: center;
     font-size: 12px;
     text-decoration: none;
     padding:5px 10px;
-    filter:alpha(opacity=50);
+  filter:alpha(opacity=50);
     -moz-opacity: 0.5;
     opacity: 0.5;
 }
-
 }

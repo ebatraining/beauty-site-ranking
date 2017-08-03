@@ -8,6 +8,7 @@
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
 <link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">

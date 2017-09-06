@@ -79,7 +79,7 @@ $(document).ready(function() {
 		<main>
 			<div class="flexslider">
 				<ul class="slides">
-				<li><img src="images/main3_.jpg" alt="画像1"></li>
+				<li><img src="images/main1_test.jpg" alt="画像テスト"></li><!--<img src="images/main3_.jpg" alt="画像1">-->
 				<li><img src="images/main2_.jpg"  alt="画像2"></li>
 				<li><img src="images/main1_.jpg"  alt="画像1"></li>
 				<li><img src="images/main4_.jpg"  alt="画像1"></li>

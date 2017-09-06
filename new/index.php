@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<title>Bauty Site Ranking</title>
 <!--[if lt IE 9]>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
@@ -62,10 +63,6 @@ $(document).ready(function() {
    });
 });
 </script>
-
-
-
-<title>Bauty Site Ranking</title>
 
 </head>
 

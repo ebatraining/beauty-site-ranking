@@ -76,10 +76,10 @@ $(document).ready(function() {
 		<main>
 			<div class="flexslider">
 				<ul class="slides">
-				<li><img src="images/main1_test.jpg" alt="画像テスト"></li><!--<img src="images/main1_test.jpg" alt="画像テスト">-->
-				<li><img src="images/main2_test.jpg"  alt="画像テスト2"></li><!--<img src="images/main2_test.jpg" alt="画像テスト">-->
-				<li><img src="images/main1_.jpg"  alt="画像1"></li>
-				<li><img src="images/main4_.jpg"  alt="画像1"></li>
+				<li><img src="images/01image_spring.png" alt="画像テスト"></li><!--<img src="images/main1_test.jpg" alt="画像テスト">-->
+				<li><img src="images/02image_summer.png"  alt="画像テスト2"></li><!--<img src="images/main2_test.jpg" alt="画像テスト">-->
+				<li><img src="images/03image_autumn.png"  alt="画像1"></li>
+				<li><img src="images/04image_winter.png"  alt="画像1"></li>
 				</ul>
 			</div>
 			<div class="news">

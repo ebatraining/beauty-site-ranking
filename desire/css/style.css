@@ -11,6 +11,10 @@ body{
 
 }
 
+#navigation ul li a.current{
+  color:#DF0101!important;
+}
+
 #wrapper{
   max-width:1200px;
   margin:0 auto;
@@ -226,7 +230,6 @@ p.komidashi{
 
 h2{
     color:#776CA3;
-    margin-bottom: 1em;
 }
 
 .maruiti{

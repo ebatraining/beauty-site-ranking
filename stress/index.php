@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/css/drawer.min.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--<link rel="stylesheet" href="css/jquery.simpleSlideShow.css">-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.1.0/js/drawer.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
@@ -63,6 +63,30 @@ $(document).ready(function() {
            $('body, html').animate({ scrollTop: 0 }, 500);
               return false;
    });
+});
+</script>
+<script>
+  $(function(){
+    $('#navigation li a').each(function(){
+      var $href = $(this).attr('href');
+      if(location.href.match($href)){
+        $(this).addClass('current');
+      } else {
+        $(this).removeClass('current');
+      }
+    });
+  });
+</script>
+<script>
+$(function(){
+  $('#navigation li a').each(function(){
+    var $href = $(this).attr('href');
+    if(location.href.match($href)){
+      $(this).parent('li').addClass('current');
+    } else {
+      $(this).parent('li').removeClass('current');
+    }
+  });
 });
 </script>
 

@@ -2,6 +2,10 @@ body{
     font-family: "游ゴシック", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
 }
 
+#navigation ul li a.current{
+  color:#DF0101!important;
+}
+
 /** clearfix **/
 
 .clearfix:after {
@@ -86,7 +90,7 @@ a{
   padding:1% 0 2% 1%;
 }
 
-#side_navi{
+/*#side_navi{
 	height:100%;
 	position:fixed;
 	left:2px;
@@ -95,7 +99,7 @@ a{
 	width:auto;
 	font-size:16px;
 	background-color:white;
-}
+}*/
 
 h1.logo{
 	width:90%;
@@ -104,9 +108,10 @@ h1.logo{
 
 .logo img{
 	width:85%;
+  padding:2%;
 }
 
-#side_navi h2 img{
+#side_menu h2 img{
 	width:88%;
 	padding:3%;
 }
@@ -119,7 +124,7 @@ h1.logo{
 #navigation li{
 	font-weight:bold;
 	color:#363636;
-	font-size:100%;
+	font-size:81%;
 	padding:0.4rem 0;
 }
 
@@ -146,6 +151,9 @@ h1.logo{
 }
 .snsicon a{
 	margin-right:3px;
+}
+.snsicon img{
+	width:15%;
 }
 
 #slide_images{

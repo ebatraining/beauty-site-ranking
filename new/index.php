@@ -63,7 +63,6 @@ $(document).ready(function() {
    });
 });
 </script>
-
 </head>
 
 <body class="drawer drawer--left" id="home">

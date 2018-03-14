@@ -10,6 +10,33 @@
 <link rel="stylesheet" type="text/css" href="css/drawer.css" media="(max-width:767px)">
 <link rel="stylesheet" type="text/css" href="css/sp.css">
 <link rel="shortcut icon" href="images/favicon2.gif">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+  $(function(){
+    $('#navigation li a').each(function(){
+      var $href = $(this).attr('href');
+      if(location.href.match($href)){
+        $(this).addClass('current');
+      } else {
+        $(this).removeClass('current');
+      }
+    });
+  });
+</script>
+<script>
+$(function(){
+  $('#navigation li a').each(function(){
+    var $href = $(this).attr('href');
+    if(location.href.match($href)){
+      $(this).parent('li').addClass('current');
+    } else {
+      $(this).parent('li').removeClass('current');
+    }
+  });
+});
+</script>
+
 <title>Beauty Site Ranking</title>
 <!--[if lt IE 9]>
 <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -122,13 +149,13 @@
 
                 <!--mainEnd-->
             <p id="page-top"><a href="#main">PAGE TOP</a></p><!--pageTopEnd-->
+          </div><!--mainEnd-->
         </div><!--contentEnd-->
+      </div><!--wrapperEnd-->
+      <footer>
+          <small>Copyright &copy; 2016 beauty site ranking All Rights Reserved.</small>
+      </footer>
 
-        <footer>
-            <small>Copyright &copy; 2016 beauty site ranking All Rights Reserved.</small>
-        </footer>
-    </div><!--wrapperEnd-->
-    <script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
     <script type="text/javascript" src="js/iscroll.min.js"></script>
     <script type="text/javascript" src="js/drawer.min.js"></script>
     <script type="text/javascript" src="js/jquery.inview.js"></script>
@@ -212,5 +239,8 @@
     	});
     });
     </script>
+
+
+
 </body>
 </html>

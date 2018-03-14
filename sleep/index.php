@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/drawer.css" media="(max-width:767px)">
 <link rel="stylesheet" type="text/css" href="css/sp.css">
 <link rel="shortcut icon" href="images/favicon2.gif">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Bauty Site Ranking</title>
 </head>
 
@@ -163,6 +164,30 @@
         animation: 'kenburnsDown',
         overlay: 'css/overlays/01.png'
      });
+    });
+    </script>
+    <script>
+    $(function(){
+      $('#navigation li a').each(function(){
+        var $href = $(this).attr('href');
+        if(location.href.match($href)){
+          $(this).addClass('current');
+        } else {
+          $(this).removeClass('current');
+        }
+      });
+    });
+    </script>
+    <script>
+    $(function(){
+      $('#navigation li a').each(function(){
+        var $href = $(this).attr('href');
+        if(location.href.match($href)){
+          $(this).parent('li').addClass('current');
+        } else {
+          $(this).parent('li').removeClass('current');
+        }
+      });
     });
     </script>
 </body>
